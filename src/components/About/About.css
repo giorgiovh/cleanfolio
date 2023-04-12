@@ -35,3 +35,12 @@
     margin-top: 2em;
   }
 }
+
+.about__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 25%;
+  margin-bottom: 20px;
+}

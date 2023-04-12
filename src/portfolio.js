@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: './',
+  title: 'GVH.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Giorgio von Horoch',
+  role: 'Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Strong background in building user-centric web applications. Skilled in writing clean, efficient code to prioritize automation and improve user experience. Graduated Summa Cum Laude in Economics and self-motivated in learning new technologies. Bilingual in Spanish and English.',
+  resume: 'https://docs.google.com/document/d/1H1zYl-ooiG01zMJjk6F19_1KkTOdRn22tofAKKFsNd0/edit#heading=h.fy8vh08uaw4e',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/jorge-von-horoch/',
+    github: 'https://github.com/giorgiovh',
   },
 }
 
@@ -21,51 +21,55 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Song Tag',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Multiplayer game where players take turns covering songs that start with specific letters. Don't forget to submit your song on time, or the other players will choose one for you!",
+    stack: ['React', 'JavaScript', 'Material UI', 'Firebase'],
+    sourceCode: 'https://github.com/giorgiovh/js-song-tag',
+    livePreview: 'https://js-song-tag.web.app/',
   },
   {
-    name: 'Project 2',
+    name: 'UFC Wiki',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Wiki that to keeps users updated on upcoming UFC events and fighter statistics.',
+    stack: ['React', 'JavaScript', 'Material UI', 'Firebase', 'SportsDataIO API'],
+    sourceCode: 'https://github.com/giorgiovh/ufc-wiki',
+    livePreview: 'https://ufc-wiki-b409b.web.app/',
   },
   {
-    name: 'Project 3',
+    name: 'Activism Events',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Site that fetches events from Facebook and allows users to create and favorite events. Visbility of events is based on user account type and event privacy settings.",
+    stack: ['React', 'Javascript', 'Python', 'SQLAlchemy', 'FastAPI'],
+    sourceCode: 'https://github.com/ActiveVegans/react-active-vegans-website',
+    livePreview: 'https://activevegans.org/',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  'React',
+  'JavaScript',
   'HTML',
   'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
   'Material UI',
+  'Express',
+  'Node.js',
+  'MongoDB',
+  'Bootstrap',
+  'Axios',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'PostgreSQL',
+  'MySQL',
+  'TypeScript',
+  'Python',
+  'Django',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'jorgevonhoroch@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
