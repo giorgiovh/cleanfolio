@@ -37,6 +37,14 @@ const projects = [
     livePreview: 'https://ufc-wiki-b409b.web.app/',
   },
   {
+    name: 'Dough or No Dough',
+    description:
+      'Personal finance app that allows users to keep track of their spending.',
+    stack: ['MongoDB', 'Express', 'React', 'NodeJS', 'JavaScript', 'Material UI', 'Firebase', 'Railway'],
+    sourceCode: 'https://github.com/giorgiovh/dough-or-no-dough',
+    livePreview: 'https://dough-or-no-dough.web.app/',
+  },
+  {
     name: 'Activism Events',
     description:
       "Site that fetches events from Facebook and allows users to create and favorite events. Visbility of events is based on user account type and event privacy settings.",
