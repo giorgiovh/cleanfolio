@@ -53,6 +53,7 @@ const skills = [
   // Front-end skills
   'React',
   'Redux',
+  'Context API',
   'JavaScript',
   'TypeScript',
   'HTML',
