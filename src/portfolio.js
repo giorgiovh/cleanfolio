@@ -28,8 +28,8 @@ const projects = [
   },
   {
     name: 'UFC Wiki',
-    description: 'Wiki that to keeps users updated on upcoming UFC events and fighter statistics.',
-    stack: ['React', 'JavaScript', 'Material UI', 'Firebase', 'SportsDataIO API'],
+    description: 'UFC app offering insights into upcoming events and fighter profiles. Engage with friends through match predictions, all within a user-friendly interface. The go-to tool for staying updated in the UFC world.',
+    stack: ['React', 'Redux', 'JavaScript', 'Material UI', 'Firebase', 'SportsDataIO API'],
     sourceCode: 'https://github.com/giorgiovh/ufc-wiki',
     livePreview: 'https://ufc-wiki-b409b.web.app/',
   },
