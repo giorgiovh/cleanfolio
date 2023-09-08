@@ -1,3 +1,5 @@
+import profilePicture from './images/profile_picture.jpg'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: './',
@@ -25,6 +27,7 @@ const projects = [
     stack: ['React', 'JavaScript', 'Material UI', 'Firebase', 'Spotify API'],
     sourceCode: 'https://github.com/giorgiovh/js-song-tag',
     livePreview: 'https://js-song-tag.web.app/',
+    img: profilePicture
   },
   {
     name: 'UFC Wiki',
@@ -32,6 +35,7 @@ const projects = [
     stack: ['React', 'Redux', 'JavaScript', 'Material UI', 'Firebase', 'SportsDataIO API'],
     sourceCode: 'https://github.com/giorgiovh/ufc-wiki',
     livePreview: 'https://ufc-wiki-b409b.web.app/',
+    img: profilePicture
   },
   {
     name: 'Dough or No Dough',
@@ -39,6 +43,7 @@ const projects = [
     stack: ['MongoDB', 'Express', 'React', 'NodeJS', 'JavaScript', 'Material UI', 'Firebase', 'Railway'],
     sourceCode: 'https://github.com/giorgiovh/dough-or-no-dough',
     livePreview: 'https://dough-or-no-dough.web.app/',
+    img: profilePicture
   },
   {
     name: 'Activism Events',
@@ -46,6 +51,7 @@ const projects = [
     stack: ['React', 'Javascript', 'Python', 'SQLAlchemy', 'FastAPI'],
     sourceCode: 'https://github.com/ActiveVegans/react-active-vegans-website',
     livePreview: 'https://activevegans.org/',
+    img: profilePicture
   },
 ]
 

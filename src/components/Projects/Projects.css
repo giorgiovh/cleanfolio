@@ -1,7 +1,133 @@
-.projects__grid {
+/* .projects__grid {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
+} */
+
+.projectsWrapper {
+  scroll-margin-top: 6em;
+  font-size: 34px;
+}
+
+.projTitle {
+  padding: 20px 0 0 0;
+  margin: 0 50px 10px 50px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.projFlex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.projCard {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.projCard img,
+.projCard video {
+  width: 100%;
+  height: 360px;
+  box-shadow: 0px 4px 12px rgb(63, 63, 63);
+  transition: all 1s;
+}
+
+.projCard .projName {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  /* -webkit-text-stroke: 2px black; */
+  text-shadow: 1px 1px 8px black;
+  left: 0;
+  top: 41.5%;
+  position: absolute;
+}
+
+.projDetails {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projDetails .techs {
+  height: 60px;
+}
+
+.projCard .specText {
+  font-size: 0.4em;
+  letter-spacing: 1.5px;
+  align-self: flex-start;
+}
+
+.projCard p strong {
+  font-size: 1.2em;
+  color: #f44336;
+  padding-bottom: 4px;
+}
+
+.projLinks {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.projLinks a,
+.projLinks p {
+  text-decoration: none;
+  color: #142f43;
+  padding: 10px 20px;
+  border: 2px solid #142f43;
+  transition: all 0.4s;
+  margin: 0 5%;
+  font-size: 0.5em;
+}
+
+.projLinks a:hover {
+  color: red;
+  border: none;
+
+  border: 2px solid red;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 700px) {
+  .projCard p {
+    line-height: 24px;
+  }
+
+  .projDetails {
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 0;
+  }
+
+  .projDetails .techs {
+    height: 120px;
+  }
+
+  .projCard {
+    padding-bottom: 20px;
+    width: 480px;
+  }
+
+  .projCard img,
+  .projCard video {
+    height: 271px;
+  }
+
+  .projName {
+    font-size: 1em;
+    top: 45%;
+  }
 }
