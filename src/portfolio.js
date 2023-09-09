@@ -1,8 +1,17 @@
-import profilePic from './images/profile_pic.jpg'
+// Song Tag
 import songTagPic from './images/song_tag_pic.png'
+import songTagVid from './videos/song_tag_vid.mp4'
+
+// UFC Wiki
 import ufcWikiPic from './images/ufc_wiki_pic.png'
+import ufcWikiVid from './videos/ufc_wiki_vid.mp4'
+
+// Dough Or No Dough
 import doughOrNoDoughPic from './images/dough_or_no_dough_pic.png'
+
+// Active Vegans
 import activeVegansPic from './images/active_vegans_pic.png'
+import activeVegansVid from './videos/active_vegans_vid.mp4'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -31,7 +40,8 @@ const projects = [
     stack: ['React', 'JavaScript', 'Material UI', 'Firebase', 'Spotify API'],
     sourceCode: 'https://github.com/giorgiovh/js-song-tag',
     livePreview: 'https://js-song-tag.web.app/',
-    img: songTagPic
+    img: songTagPic,
+    video: songTagVid
   },
   {
     name: 'UFC Wiki',
@@ -39,7 +49,8 @@ const projects = [
     stack: ['React', 'Redux', 'JavaScript', 'Material UI', 'Firebase', 'SportsDataIO API'],
     sourceCode: 'https://github.com/giorgiovh/ufc-wiki',
     livePreview: 'https://ufc-wiki-b409b.web.app/',
-    img: ufcWikiPic
+    img: ufcWikiPic,
+    video: ufcWikiVid
   },
   {
     name: 'Dough or No Dough',
@@ -47,7 +58,8 @@ const projects = [
     stack: ['MongoDB', 'Express', 'React', 'NodeJS', 'JavaScript', 'Material UI', 'Firebase', 'Railway'],
     sourceCode: 'https://github.com/giorgiovh/dough-or-no-dough',
     livePreview: 'https://dough-or-no-dough.web.app/',
-    img: doughOrNoDoughPic
+    img: doughOrNoDoughPic,
+    video: ufcWikiVid
   },
   {
     name: 'Activism Events',
@@ -55,7 +67,8 @@ const projects = [
     stack: ['React', 'Javascript', 'Python', 'SQLAlchemy', 'FastAPI'],
     sourceCode: 'https://github.com/ActiveVegans/react-active-vegans-website',
     livePreview: 'https://activevegans.org/',
-    img: activeVegansPic
+    img: activeVegansPic,
+    video: activeVegansVid
   },
 ]
 

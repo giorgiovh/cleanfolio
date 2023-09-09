@@ -21,7 +21,7 @@ const Projects = () => {
         {projects.map((obj) => (
           <div className="projCard" key={uniqid()}>
             {/* CONTINUE HERE: Pass the video property to the ImageVideo component below. Also, add video properties and videos to the projects on portfolio.js */}
-            <ImageVideo defaultImage={obj.img}/>
+            <ImageVideo defaultImage={obj.img} video={obj.video}/>
           </div>
         ))}
       </div>
