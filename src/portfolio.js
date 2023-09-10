@@ -8,6 +8,7 @@ import ufcWikiVid from './videos/ufc_wiki_vid.mp4'
 
 // Dough Or No Dough
 import doughOrNoDoughPic from './images/dough_or_no_dough_pic.png'
+import doughOrNoDoughVid from './videos/dough_or_no_dough_vid.mp4'
 
 // Active Vegans
 import activeVegansPic from './images/active_vegans_pic.png'
@@ -59,7 +60,7 @@ const projects = [
     sourceCode: 'https://github.com/giorgiovh/dough-or-no-dough',
     livePreview: 'https://dough-or-no-dough.web.app/',
     img: doughOrNoDoughPic,
-    video: ufcWikiVid
+    video: doughOrNoDoughVid
   },
   {
     name: 'Activism Events',

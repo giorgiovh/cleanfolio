@@ -21,7 +21,42 @@ const Projects = () => {
         {projects.map((obj) => (
           <div className="projCard" key={uniqid()}>
             {/* CONTINUE HERE: Pass the video property to the ImageVideo component below. Also, add video properties and videos to the projects on portfolio.js */}
-            <ImageVideo defaultImage={obj.img} video={obj.video}/>
+            <ImageVideo defaultImage={obj.img} video={obj.video} title={obj.name}/>
+            <div className="projDetails">
+              <p className="specText">
+                <strong>Description</strong>
+                <br />
+                {obj.description}
+              </p>
+              <p className="techs specText">
+                <strong>Technologies</strong>
+                <br />
+                {obj.stack}
+              </p>
+
+              <div className="projLinks">
+                <a
+                  href={obj.sourceCode}
+                  alt="not valid"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Repo
+                </a>
+                {obj.livePreview ? (
+                  <a
+                    href={obj.livePreview}
+                    alt="not valid"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live App
+                  </a>
+                ) : (
+                  <p>Maintenance</p>
+                )}
+              </div>
+            </div>
           </div>
         ))}
       </div>
