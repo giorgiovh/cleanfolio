@@ -1,3 +1,5 @@
+import GitHubIcon from '@material-ui/icons/GitHub'
+import LaunchIcon from '@material-ui/icons/Launch'
 import uniqid from 'uniqid'
 import { projects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
@@ -20,42 +22,42 @@ const Projects = () => {
       <div className="projFlex">
         {projects.map((obj) => (
           <div className="projCard" key={uniqid()}>
-            {/* CONTINUE HERE: Pass the video property to the ImageVideo component below. Also, add video properties and videos to the projects on portfolio.js */}
             <ImageVideo defaultImage={obj.img} video={obj.video} title={obj.name}/>
-            <div className="projDetails">
-              <p className="specText">
-                <strong>Description</strong>
-                <br />
-                {obj.description}
-              </p>
-              <p className="techs specText">
-                <strong>Technologies</strong>
-                <br />
-                {obj.stack}
-              </p>
+            <div className='project'>
+              <p className='project__description'>{obj.description}</p>
+              {obj.stack && (
+              <ul className='project__stack'>
+                {obj.stack.map((item) => (
+                  <li key={uniqid()} className='project__stack-item'>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+    )}
 
-              <div className="projLinks">
-                <a
-                  href={obj.sourceCode}
-                  alt="not valid"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View Repo
-                </a>
-                {obj.livePreview ? (
-                  <a
-                    href={obj.livePreview}
-                    alt="not valid"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Live App
-                  </a>
-                ) : (
-                  <p>Maintenance</p>
-                )}
-              </div>
+{obj.sourceCode && (
+      <a
+        href={obj.sourceCode}
+        aria-label='source code'
+        className='link link--icon'
+        target='_blank' 
+        rel="noreferrer"
+      >
+        <GitHubIcon />
+      </a>
+    )}
+
+    {obj.livePreview && (
+      <a
+        href={obj.livePreview}
+        aria-label='live preview'
+        className='link link--icon'
+        target='_blank' 
+        rel="noreferrer"
+      >
+        <LaunchIcon />
+      </a>
+    )}
             </div>
           </div>
         ))}
