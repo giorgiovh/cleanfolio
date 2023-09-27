@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d353f84.chunk.css",
-    "main.js": "/static/js/main.83c4554c.chunk.js",
-    "main.js.map": "/static/js/main.83c4554c.chunk.js.map",
+    "main.css": "/static/css/main.203f0785.chunk.css",
+    "main.js": "/static/js/main.60d9e13c.chunk.js",
+    "main.js.map": "/static/js/main.60d9e13c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.44d54374.js",
     "runtime-main.js.map": "/static/js/runtime-main.44d54374.js.map",
-    "static/js/2.f5288c40.chunk.js": "/static/js/2.f5288c40.chunk.js",
-    "static/js/2.f5288c40.chunk.js.map": "/static/js/2.f5288c40.chunk.js.map",
+    "static/js/2.087c71aa.chunk.js": "/static/js/2.087c71aa.chunk.js",
+    "static/js/2.087c71aa.chunk.js.map": "/static/js/2.087c71aa.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3d353f84.chunk.css.map": "/static/css/main.3d353f84.chunk.css.map",
-    "static/js/2.f5288c40.chunk.js.LICENSE.txt": "/static/js/2.f5288c40.chunk.js.LICENSE.txt",
-    "static/media/profile_picture.27c1cef0.jpg": "/static/media/profile_picture.27c1cef0.jpg"
+    "static/css/main.203f0785.chunk.css.map": "/static/css/main.203f0785.chunk.css.map",
+    "static/js/2.087c71aa.chunk.js.LICENSE.txt": "/static/js/2.087c71aa.chunk.js.LICENSE.txt",
+    "static/media/active_vegans_pic.6ba7fa77.png": "/static/media/active_vegans_pic.6ba7fa77.png",
+    "static/media/active_vegans_vid.a0ffc158.mp4": "/static/media/active_vegans_vid.a0ffc158.mp4",
+    "static/media/dough_or_no_dough_pic.ea2fe0ac.png": "/static/media/dough_or_no_dough_pic.ea2fe0ac.png",
+    "static/media/dough_or_no_dough_vid.24c42673.mp4": "/static/media/dough_or_no_dough_vid.24c42673.mp4",
+    "static/media/profile_pic.27c1cef0.jpg": "/static/media/profile_pic.27c1cef0.jpg",
+    "static/media/song_tag_pic.d49e4776.png": "/static/media/song_tag_pic.d49e4776.png",
+    "static/media/song_tag_vid.4abe3d18.mp4": "/static/media/song_tag_vid.4abe3d18.mp4",
+    "static/media/ufc_wiki_pic.70ef1941.png": "/static/media/ufc_wiki_pic.70ef1941.png",
+    "static/media/ufc_wiki_vid.c9b474f2.mp4": "/static/media/ufc_wiki_vid.c9b474f2.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.44d54374.js",
-    "static/js/2.f5288c40.chunk.js",
-    "static/css/main.3d353f84.chunk.css",
-    "static/js/main.83c4554c.chunk.js"
+    "static/js/2.087c71aa.chunk.js",
+    "static/css/main.203f0785.chunk.css",
+    "static/js/main.60d9e13c.chunk.js"
   ]
 }
