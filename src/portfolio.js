@@ -25,7 +25,7 @@ const about = {
   name: 'Giorgio von Horoch',
   role: 'Software Engineer',
   description: 'Strong background in building user-centric web applications. Skilled in writing clean, efficient code to prioritize automation and improve user experience. Graduated Summa Cum Laude in Economics and self-motivated in learning new technologies. Bilingual in Spanish and English.',
-  resume: 'https://docs.google.com/document/d/1H1zYl-ooiG01zMJjk6F19_1KkTOdRn22tofAKKFsNd0/edit#heading=h.fy8vh08uaw4e',
+  resume: 'https://docs.google.com/document/d/1Lyk45obC-vkKzUexZlCVImt25RyiqILxqQo4adGEHrE/edit',
   social: {
     linkedin: 'https://www.linkedin.com/in/jorge-von-horoch/',
     github: 'https://github.com/giorgiovh',
