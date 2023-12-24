@@ -24,7 +24,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Giorgio von Horoch',
   role: 'Software Engineer',
-  description: 'Strong background in building user-centric web applications. Skilled in writing clean, efficient code to prioritize automation and improve user experience. Graduated Summa Cum Laude in Economics and self-motivated in learning new technologies. Bilingual in Spanish and English.',
+  description: 'Crafting innovative and user-centric web applications is my forte, backed by two years of professional web development experience. With a Summa Cum Laude distinction in Economics and a robust finance background, I bring a unique blend of analytical thinking and technical expertise in coding. My track record includes consistently surpassing performance goals, a testament to my dedication and proficiency. My journey from Paraguay to the US and subsequent career pivot have honed adaptability and rapid skill acquisition. Fluent in both Spanish and English.',
   resume: 'https://docs.google.com/document/d/1Lyk45obC-vkKzUexZlCVImt25RyiqILxqQo4adGEHrE/edit',
   social: {
     linkedin: 'https://www.linkedin.com/in/jorge-von-horoch/',
